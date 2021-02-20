@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors())
 
 
-app.use(express.static('src/dist'));
+app.use(express.static(path.join(__dirname,'../../dist')));
 app.use(favicon(path.join(__dirname, '../client/views', 'favicon.ico')));
 
 

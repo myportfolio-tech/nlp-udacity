@@ -23,6 +23,7 @@
     "css-loader": "^5.0.1",
     "html-webpack-plugin": "^3.2.0",
     "jest": "^26.6.3",
+    "jest-webpack-resolver": "^0.3.0",
     "mini-css-extract-plugin": "^1.3.7",
     "node-env-run": "^4.0.2",
     "optimize-css-assets-webpack-plugin": "^5.0.4",
@@ -52,5 +53,14 @@
   "bugs": {
     "url": "https://github.com/myportfolio-tech/nlp-udacity/issues"
   },
-  "homepage": "https://github.com/myportfolio-tech/nlp-udacity#readme"
+  "homepage": "https://github.com/myportfolio-tech/nlp-udacity#readme",
+  "jest": {
+    "verbose": true
+  },
+  "moduleFileExtensions": [
+    "js",
+    "jsx"
+  ]
+    
 }
+

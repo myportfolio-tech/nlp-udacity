@@ -1,4 +1,4 @@
-// import {checkURL} from checkURL
+
 import {cleanData} from "./cleanData.js"
 
 

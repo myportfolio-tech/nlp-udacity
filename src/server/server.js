@@ -41,9 +41,12 @@ app.post('/api', async (req, res) => {
     });
 });
 
+// app.get('/', (req, res) => {
+//   res.send({});
+// });
 app.get('/', (req, res) => {
-  res.send({});
-});
+  res.render(path.join(__dirname, '../../dist/index'));
+  });
 
 function createPackage(data) {
 

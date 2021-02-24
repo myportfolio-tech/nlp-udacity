@@ -58,6 +58,11 @@ app.get('/', (req, res) => {
 
 
 ```
-### Testing the app with dev-server
-In order to test the full functionality of the app, **you must run server.js** as well as the dev server.
+### Running the app with dev-server
+To test server-side API calls, **run server.js** as well as the dev server.
+
+## Jest - Unit Testing
+There is a test for eacj js file.
+Run **npm test** to test the units.
+
 

@@ -2,7 +2,7 @@
 import {cleanData} from "./cleanData.js"
 
 
-async function callAPI(){
+async function callAPI(urlvalue){
 
     fetch('/api', {
         method: 'POST',
@@ -11,14 +11,17 @@ async function callAPI(){
             'Accept': 'application/json'
         },
         body: JSON.stringify({
-            url: url.value
+            url: urlvalue
         })
 
     }).then(res => res.json()).then(data => {
         console.log(data);
         cleanData(data);
+        
+        
     });
 
+    return 'Calls Finished';
 }
 
 

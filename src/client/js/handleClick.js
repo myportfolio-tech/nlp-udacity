@@ -12,7 +12,7 @@ function handleClick()
         
         if (checkURL(url.value)) {
             console.log(url.value);
-            callAPI();
+            callAPI(url.value);
             }
         else 
             {

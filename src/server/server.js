@@ -31,7 +31,7 @@ app.post('/api', async (req, res) => {
     .get(sent_url)
     .then((data) => {
       const dataPackage = createPackage(data.data);
-      console.log(dataPackage);
+      console.log('data package', dataPackage);
       res.send(dataPackage);
     })
 

@@ -8,7 +8,7 @@ mode: "development",
 devServer: {
     contentBase: path.join(__dirname, 'dist'),
     compress: true,
-    port: 3000,
+    port: 8000,
   },
 entry: "./src/client/index.js",
 output: {

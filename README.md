@@ -62,7 +62,8 @@ app.get('/', (req, res) => {
 To test server-side API calls, **run server.js** as well as the dev server.
 
 ## Jest - Unit Testing
-There is a test for eacj js file.
-Run **npm test** to test the units.
+There is a test for each js file. 
 
+### npm test
+Runs the tests.
 

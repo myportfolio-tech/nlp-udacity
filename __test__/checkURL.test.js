@@ -16,6 +16,6 @@ test("URL value is not url", () => {
 
 test("URL value is URL", () => {
     const checkurl = checkURL('https://www.archives.gov/founding-docs/declaration-transcript');
-    expect(checkurl).toBe('Calls Finished');
+    expect(checkurl).toBe(true);
 });
 

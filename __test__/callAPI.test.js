@@ -13,7 +13,7 @@ test("Testing callAPI() exists", () => {
 
 test("Testing Async callAPI() Call", () => {
     callAPI('https://www.archives.gov/founding-docs/declaration-transcript').then(callData => {
-        expect(callData).toBe('This is the return');
+        expect(callData).toBe('Calls Finished');
     });
     
 });

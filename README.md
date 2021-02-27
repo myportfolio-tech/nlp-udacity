@@ -56,7 +56,6 @@ app.get('/', (req, res) => {
   res.send({});
 });
 
-
 ```
 ### Running the app with dev-server
 To test server-side API calls, **run server.js** as well as the dev server.

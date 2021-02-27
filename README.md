@@ -65,5 +65,5 @@ To test server-side API calls, **run server.js** as well as the dev server.
 There is a test for each js file. 
 
 ### npm test
-Runs the tests.
+Runs all Jest test
 
